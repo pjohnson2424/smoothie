@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ApiService {
-  PROXY_ROOT: string = 'https://gc-airtable-proxy.herokuapp.com/';
+  PROXY_ROOT: string = 'https://airtableproxygc.herokuapp.com/';
   FILTER: string = '?filterByFormula=';
 
 
